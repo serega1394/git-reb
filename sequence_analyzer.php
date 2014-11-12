@@ -451,9 +451,4 @@ class  qtype_correctwriting_sequence_analyzer extends qtype_correctwriting_abstr
         return array(array ('name' =>'movedmistakeweight', 'default' => 0.05, 'advanced' => true, 'min' => 0, 'max' => 1, 'required' => true)    //Moved token mistake weight field
                     );
     }
-
-    public function extra_question_fields() {
-        return array('absentmistakeweight');
-    }
-
 }
