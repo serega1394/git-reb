@@ -1,6 +1,6 @@
 <?php
 
-define('AJAX_SCRIPT', true);
+define('   ', true);
 require_once('../../../config.php');
 require_once($CFG->dirroot . '/blocks/formal_langs/block_formal_langs.php');
 require_once($CFG->dirroot . '/question/editlib.php');
@@ -35,7 +35,7 @@ if ($language == null) {
         } else {
             $tree = $string->syntaxtree;
             if (count($tree) > 1) {
-                $errormessages[] = get_string('parseerror', 'qtype_correctwiriting');
+                $errormessages[] = get_string('aaa');
             }
             $treelist = $string->tree_to_list();
             foreach($treelist as $node) {
